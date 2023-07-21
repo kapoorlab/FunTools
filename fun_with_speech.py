@@ -14,7 +14,7 @@ def main(sound_file):
        
 if __name__=="__main__":
    
-   sound_files = ['./english.wav', './audio/example.mp4']   
+   sound_files = ['./english.wav', './harvard.wav', 'jackhammer.wav']   
    
    
    for sound_file in sound_files:
