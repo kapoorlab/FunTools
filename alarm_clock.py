@@ -33,7 +33,7 @@ def check_alarm(alarm_time, interval, maxtime):
 
 def play_alarm():
     pygame.mixer.init()
-    pygame.mixer.music.load("/home/varun/Downloads/alarm.mp3")  # Replace "alarm.mp3" with your MP3 file
+    pygame.mixer.music.load("./audio/steve_ballmer_developers.wav")  # Replace "alarm.mp3" with your MP3 file
     pygame.mixer.music.play()
     while pygame.mixer.music.get_busy():
         if paused:

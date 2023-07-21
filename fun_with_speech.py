@@ -8,7 +8,8 @@ def main(sound_file):
        audio_file = sr.AudioFile(sound_file)
        with audio_file as source:
            audio = r.record(source)
-       text = r.recognize_google(audio) 
+       text = r.recognize_sphinx(audio)    
+       #text = r.recognize_google(audio) 
        print(f'The audio that you just heard said: {text}')
        
        
